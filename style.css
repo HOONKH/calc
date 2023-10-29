@@ -1,0 +1,40 @@
+@font-face {
+  src: url(fonts/D2CodingBold-Ver1.3.2-20180524.ttf);
+  font-family: "D2CodingBold-Ver1.3.2-20180524";
+}
+@font-face {
+  src: url(fonts/Happy\ Halloween.ttf);
+  font-family: "Happy\ Halloween.ttf";
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  font-family: "Happy\ Halloween.ttf";
+  background-color: #d94032;
+  font-size: 50px;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+  width: 120px;
+  height: 80px;
+  font-family: "D2CodingBold-Ver1.3.2-20180524";
+  font-size: 30px;
+  color: black;
+}
+
+.result {
+  border: 2px solid #f29f05;
+  padding: 30px;
+  background-color: white;
+  font-family: "D2CodingBold-Ver1.3.2-20180524";
+  font-size: 30px;
+}
